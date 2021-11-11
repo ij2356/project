@@ -1,0 +1,28 @@
+.row {
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row1 {
+  background-color: rebeccapurple;
+}
+.row2 {
+  background-color: rgb(44, 213, 120);
+}
+.row3 {
+  background-color: rgb(189, 174, 40);
+}
+.row4 {
+  background-color: rgb(214, 163, 31);
+}
+.row.row4 {
+  width: 200vw;
+}
+.row .text {
+  font-size: 60px;
+  color: white;
+  width: 500px;
+  height: 500px;
+}
